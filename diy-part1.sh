@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git luci-app-openclash https://github.com/vernesong/OpenClash/tree/v0.45.16-beta/luci-app-openclash' >>feeds.conf.default
+#echo 'src-git luci-app-openclash https://github.com/vernesong/OpenClash/tree/v0.45.16-beta/luci-app-openclash' >>feeds.conf.default
 echo 'src-git openclash https://github.com/vernesong/OpenClash/tree/v0.45.16-beta' >>feeds.conf.default
 
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
