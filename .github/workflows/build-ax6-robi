@@ -1,4 +1,7 @@
 name: Build AX6 robi
+on: 
+  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   check:
